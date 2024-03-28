@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs", //어떤 모듈 방식으로 컴파일할지 설정
+    "outDir": "./dist", //컴파일 후 js 파일들이 생성되는 곳
+    "rootDir": "./src", //루트 폴더
+    "strict": false, //strict 옵션 활성화
+    "moduleResolution": "node", //모듈 해석 방법 설정: 'node' (Node.js)
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
+//
+//{
+//  "compilerOptions": {
+//    "lib": [
+//      "es5",
+//      "es6"
+//    ],
+//    "target": "es2020",
+//    "module": "commonjs",
+//    "moduleResolution": "node",
+//    "outDir": "./build",
+//    "emitDecoratorMetadata": true,
+//    "experimentalDecorators": true,
+//    "sourceMap": true,
+//    "allowSyntheticDefaultImports": true
+//  }
+//}
